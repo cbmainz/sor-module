@@ -1,2 +1,4 @@
 # sor-module
- urorack logic gate and trigger combiner
+ Eurorack logic gate and trigger combiner
+
+First Eurorack module ever, work in progress, suggestions welcome
