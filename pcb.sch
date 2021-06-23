@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "sor-module"
+Date "June 2021"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -22,7 +22,7 @@ F 1 "SW_DPDT_x2" H 2450 2844 50  0000 C CNN
 F 2 "" H 2450 2650 50  0001 C CNN
 F 3 "~" H 2450 2650 50  0001 C CNN
 	2    2450 2650
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW1
@@ -33,7 +33,7 @@ F 1 "SW_DPDT_x2" H 2400 1594 50  0000 C CNN
 F 2 "" H 2400 1400 50  0001 C CNN
 F 3 "~" H 2400 1400 50  0001 C CNN
 	2    2400 1400
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 NoConn ~ 2350 3450
 NoConn ~ 2300 2200
@@ -47,7 +47,7 @@ F 1 "SW_DPDT_x2" H 2400 2194 50  0000 C CNN
 F 2 "" H 2400 2000 50  0001 C CNN
 F 3 "~" H 2400 2000 50  0001 C CNN
 	1    2400 2000
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW2
@@ -58,7 +58,7 @@ F 1 "SW_DPDT_x2" H 2450 3444 50  0000 C CNN
 F 2 "" H 2450 3250 50  0001 C CNN
 F 3 "~" H 2450 3250 50  0001 C CNN
 	1    2450 3250
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 $Comp
 L pspice:DIODE D1
@@ -69,7 +69,7 @@ F 1 "DIODE" H 2450 4574 50  0000 C CNN
 F 2 "" H 2450 4400 50  0001 C CNN
 F 3 "~" H 2450 4400 50  0001 C CNN
 	1    2450 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L pspice:DIODE D2
@@ -80,7 +80,7 @@ F 1 "DIODE" H 2450 4124 50  0000 C CNN
 F 2 "" H 2450 3950 50  0001 C CNN
 F 3 "~" H 2450 3950 50  0001 C CNN
 	1    2450 3950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 2500 1600
 Wire Wire Line
@@ -138,7 +138,7 @@ F 1 "AudioJack2_SwitchT" H 2532 7284 50  0000 C CNN
 F 2 "" H 2500 7050 50  0001 C CNN
 F 3 "~" H 2500 7050 50  0001 C CNN
 	1    2500 7050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J3
@@ -149,7 +149,7 @@ F 1 "AudioJack2_SwitchT" H 2532 6684 50  0000 C CNN
 F 2 "" H 2500 6450 50  0001 C CNN
 F 3 "~" H 2500 6450 50  0001 C CNN
 	1    2500 6450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J2
@@ -160,7 +160,7 @@ F 1 "AudioJack2_SwitchT" H 2482 5834 50  0000 C CNN
 F 2 "" H 2450 5600 50  0001 C CNN
 F 3 "~" H 2450 5600 50  0001 C CNN
 	1    2450 5600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J1
@@ -171,7 +171,7 @@ F 1 "AudioJack2_SwitchT" H 2482 5234 50  0000 C CNN
 F 2 "" H 2450 5000 50  0001 C CNN
 F 3 "~" H 2450 5000 50  0001 C CNN
 	1    2450 5000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2650 5000 2800 5000
