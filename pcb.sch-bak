@@ -1,0 +1,260 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack2_SwitchT J1
+U 1 1 60D0EDA3
+P 2400 3950
+F 0 "J1" H 2432 4275 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2432 4184 50  0000 C CNN
+F 2 "" H 2400 3950 50  0001 C CNN
+F 3 "~" H 2400 3950 50  0001 C CNN
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 60D0F2E9
+P 2400 4550
+F 0 "J2" H 2432 4875 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2432 4784 50  0000 C CNN
+F 2 "" H 2400 4550 50  0001 C CNN
+F 3 "~" H 2400 4550 50  0001 C CNN
+	1    2400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J3
+U 1 1 60D0F722
+P 2500 6050
+F 0 "J3" H 2532 6375 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2532 6284 50  0000 C CNN
+F 2 "" H 2500 6050 50  0001 C CNN
+F 3 "~" H 2500 6050 50  0001 C CNN
+	1    2500 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J4
+U 1 1 60D0FF2D
+P 2500 6650
+F 0 "J4" H 2532 6975 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2532 6884 50  0000 C CNN
+F 2 "" H 2500 6650 50  0001 C CNN
+F 3 "~" H 2500 6650 50  0001 C CNN
+	1    2500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60D144DF
+P 2450 5100
+F 0 "R1" V 2657 5100 50  0000 C CNN
+F 1 "R" V 2566 5100 50  0000 C CNN
+F 2 "" V 2380 5100 50  0001 C CNN
+F 3 "~" H 2450 5100 50  0001 C CNN
+	1    2450 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60D14A77
+P 2450 5500
+F 0 "R2" V 2657 5500 50  0000 C CNN
+F 1 "R" V 2566 5500 50  0000 C CNN
+F 2 "" V 2380 5500 50  0001 C CNN
+F 3 "~" H 2450 5500 50  0001 C CNN
+	1    2450 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 2 1 60D1FDFB
+P 2550 1550
+F 0 "SW1" H 2550 1835 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2550 1744 50  0000 C CNN
+F 2 "" H 2550 1550 50  0001 C CNN
+F 3 "~" H 2550 1550 50  0001 C CNN
+	2    2550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 2 1 60D21CA6
+P 2600 2350
+F 0 "SW2" H 2600 2635 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2600 2544 50  0000 C CNN
+F 2 "" H 2600 2350 50  0001 C CNN
+F 3 "~" H 2600 2350 50  0001 C CNN
+	2    2600 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2600 4050
+NoConn ~ 2600 4650
+NoConn ~ 2700 6150
+NoConn ~ 2700 6750
+NoConn ~ 2150 1450
+NoConn ~ 2200 2250
+NoConn ~ 2800 2450
+NoConn ~ 2750 1650
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 1 1 60D228C9
+P 2000 2350
+F 0 "SW2" H 2000 2635 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2000 2544 50  0000 C CNN
+F 2 "" H 2000 2350 50  0001 C CNN
+F 3 "~" H 2000 2350 50  0001 C CNN
+	1    2000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 60D1F4C6
+P 1950 1550
+F 0 "SW1" H 1950 1835 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 1950 1744 50  0000 C CNN
+F 2 "" H 1950 1550 50  0001 C CNN
+F 3 "~" H 1950 1550 50  0001 C CNN
+	1    1950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D2
+U 1 1 60D13741
+P 2350 3400
+F 0 "D2" H 2350 3665 50  0000 C CNN
+F 1 "DIODE" H 2350 3574 50  0000 C CNN
+F 2 "" H 2350 3400 50  0001 C CNN
+F 3 "~" H 2350 3400 50  0001 C CNN
+	1    2350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D1
+U 1 1 60D12F10
+P 2350 2950
+F 0 "D1" H 2350 3215 50  0000 C CNN
+F 1 "DIODE" H 2350 3124 50  0000 C CNN
+F 2 "" H 2350 2950 50  0001 C CNN
+F 3 "~" H 2350 2950 50  0001 C CNN
+	1    2350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3950 2950 3950
+Wire Wire Line
+	2950 3950 2950 4550
+Wire Wire Line
+	2950 4550 2600 4550
+Wire Wire Line
+	2950 4550 2950 6050
+Wire Wire Line
+	2950 6050 2700 6050
+Connection ~ 2950 4550
+Wire Wire Line
+	2950 6050 2950 6650
+Wire Wire Line
+	2950 6650 2700 6650
+Connection ~ 2950 6050
+Wire Wire Line
+	2600 3850 2950 3850
+Wire Wire Line
+	2950 3850 2950 3550
+Wire Wire Line
+	2950 3550 2150 3550
+Wire Wire Line
+	2150 3550 2150 3400
+Wire Wire Line
+	2600 4450 3100 4450
+Wire Wire Line
+	3100 4450 3100 3150
+Wire Wire Line
+	3100 3150 2150 3150
+Wire Wire Line
+	2150 3150 2150 2950
+Wire Wire Line
+	2550 2950 2550 2350
+Wire Wire Line
+	2550 2350 2400 2350
+Wire Wire Line
+	2550 3400 2700 3400
+Wire Wire Line
+	2700 3400 2700 2600
+Wire Wire Line
+	2700 2600 1800 2600
+Wire Wire Line
+	1800 2600 1800 2350
+Wire Wire Line
+	2550 2950 3100 2950
+Wire Wire Line
+	3100 2950 3100 1850
+Wire Wire Line
+	3100 1850 2350 1850
+Wire Wire Line
+	2350 1850 2350 1550
+Connection ~ 2550 2950
+Wire Wire Line
+	1750 1900 1750 1550
+Connection ~ 2700 3400
+Wire Wire Line
+	2150 1650 2150 1750
+Wire Wire Line
+	2150 1750 3250 1750
+Wire Wire Line
+	2750 1450 3250 1450
+Wire Wire Line
+	3250 1450 3250 1750
+Wire Wire Line
+	3250 1750 3250 2550
+Wire Wire Line
+	3250 4950 2300 4950
+Wire Wire Line
+	2300 4950 2300 5100
+Connection ~ 3250 1750
+Wire Wire Line
+	2800 2250 3400 2250
+Wire Wire Line
+	3400 2250 3400 5300
+Wire Wire Line
+	3400 5300 2300 5300
+Wire Wire Line
+	2300 5300 2300 5500
+Wire Wire Line
+	2200 2450 2200 2550
+Wire Wire Line
+	2200 2550 3250 2550
+Connection ~ 3250 2550
+Wire Wire Line
+	3250 2550 3250 4950
+Wire Wire Line
+	2600 5100 3150 5100
+Wire Wire Line
+	3150 5100 3150 5950
+Wire Wire Line
+	3150 5950 2700 5950
+Wire Wire Line
+	2600 5500 3400 5500
+Wire Wire Line
+	3400 5500 3400 6550
+Wire Wire Line
+	3400 6550 2700 6550
+Wire Wire Line
+	2700 3400 3600 3400
+Wire Wire Line
+	1750 1900 3600 1900
+Wire Wire Line
+	3600 3400 3600 1900
+$EndSCHEMATC
